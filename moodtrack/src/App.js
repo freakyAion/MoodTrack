@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import StartScreen from './startScren';
 
 /*function App() {
   return (
@@ -24,10 +25,8 @@ import './App.css';
 
 function App() {
   return(
-    <div>
-      <h1>Test</h1>
-      <h2>Test 2</h2>
-      <h3>Test</h3>
+    <div className='App'>
+      <StartScreen />
     </div>
   );
 

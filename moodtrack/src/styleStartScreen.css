@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    background: gray;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  body {
+    text-align:center;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper{
+    margin: 0, auto;
+  }
+
+  /***** Настройка кнопки настроек *****/
+
+  .buttonOption {
+    background-color: transparent;
+  }
