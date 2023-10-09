@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
-import StartScreen from './startScren';
+import HeaderFirstScreen from './HeaderFirstScreen';
+//import {TodayDateBloke} from './TodayDateBloke/TodayDateBloke';
 
 /*function App() {
   return (
@@ -26,7 +27,8 @@ import StartScreen from './startScren';
 function App() {
   return(
     <div className='App'>
-      <StartScreen />
+      <HeaderFirstScreen />,
+      /* добавить блок с сегоднешней датой */
     </div>
   );
 

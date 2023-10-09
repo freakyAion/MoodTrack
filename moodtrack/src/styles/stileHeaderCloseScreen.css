@@ -1,35 +1,34 @@
 *{
     margin: 0;
     padding: 0;
-  }
+}
   
-  html {
+html {
     background: gray;
     overflow-x: hidden;
     overflow-y: scroll;
-  }
+}
   
-  body {
+body {
     text-align:center;
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
-  }
+}
   
-  #wrapper{
+#wrapper{
     margin: 0, auto;
-  }
+}
 
-  /***** Настройка кнопки настроек *****/
+/***** Настройка кнопки закрытия *****/
 
-  .headerWithOptionButton {
+.headerWithCloseButton {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .buttonOption {
-    margin-top: 30px;
+.buttonClose {
+    margin-top: 32px;
     margin-right: auto;
-    margin-left: 16px;
-    margin-bottom: 0;
-  }
+    margin-left: 18px;
+}
