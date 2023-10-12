@@ -10,7 +10,13 @@ const MenuButton = styled.button`
   outline: 0;
   border: 1;
   padding: 12px;
-  background: ;
+  background: #8BC0CF;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 16px;
+  width: 43px;
+  height: 43px;
 
   span {
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -58,6 +64,7 @@ const Bar = styled.span`
     width: 24px;
     height: 3px;
     margin-bottom: 7px;
+    margin-left: -2px;
     background-color: #FFFFFF;
     border-radius: 16px;
 `;

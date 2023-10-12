@@ -15,7 +15,7 @@ const Navbar = styled.div`
     max-width: 100%;
     margin: 0px;
     align-items: center;
-    background: #8BC0CF none repeat scroll 0% 0%;
+    background: #FFFFFF none repeat scroll 0% 0%;
     color: rgb(248, 248, 248);
     min-width: 0px;
     min-height: 0px;
@@ -40,7 +40,6 @@ const MainMenu = () => {
         <header ref={node}>
             <Navbar>
                 <HamburgerButton />
-                <h1>Website</h1>
             </Navbar>
             <SideMenu />
         </header>
